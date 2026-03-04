@@ -5,138 +5,83 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Oprava iPhone a telefonů v Plzni | A Mobil Servis</title>
-<meta name="description" content="Profesionální opravy iPhone, Samsung a dalších telefonů v Plzni. Opravy často do 30 minut. Diagnostika zdarma.">
+<meta name="description" content="Rychlá oprava iPhone, Samsung a dalších telefonů v Plzni. Většina oprav do 30–60 minut. Diagnostika zdarma.">
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
 <div class="container header-inner">
 <div class="logo">A MOBIL <span>Servis</span></div>
-
 <nav>
 <a href="#opravy">Opravy</a>
-<a href="#proc">Proč my</a>
+<a href="#vyhody">Proč my</a>
 <a href="#kalkulacka">Cena opravy</a>
 <a href="#kontakt">Kontakt</a>
 </nav>
-
 <a class="cta" href="#kontakt">Objednat opravu</a>
 </div>
 </header>
 
 <section class="hero">
 <div class="container">
-
 <h1>Oprava iPhone a telefonů v Plzni</h1>
-
-<p class="subtitle">
-Opravy často do 30 minut • Diagnostika zdarma • Naproti Velké synagoze
-</p>
-
-<a class="btn" href="#kontakt">Objednat opravu</a>
-
-<div class="hero-img">
-<img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=1200&q=60">
+<p class="subtitle">Většina oprav do 30–60 minut • Diagnostika zdarma • Naproti Velké synagoze</p>
+<div class="hero-buttons">
+<a class="btn-primary" href="#kontakt">Objednat opravu</a>
+<a class="btn-secondary" href="tel:+420723122199">Zavolat</a>
 </div>
-
+<img class="hero-img" src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=1200&q=60">
 </div>
 </section>
 
 <section id="opravy" class="section container">
-
 <h2>Nejčastější opravy</h2>
-
 <div class="grid">
-
 <div class="card">
 <img src="https://images.unsplash.com/photo-1603899122634-f086ca5f5ddd?auto=format&fit=crop&w=600&q=60">
 <h3>Výměna displeje</h3>
 <p>Prasklý displej? Oprava často do 30 minut.</p>
 </div>
-
 <div class="card">
 <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=600&q=60">
 <h3>Výměna baterie</h3>
 <p>Telefon se rychle vybíjí? Vyměníme baterii.</p>
 </div>
-
 <div class="card">
 <img src="https://images.unsplash.com/photo-1581091215367-59ab6f3f7f6b?auto=format&fit=crop&w=600&q=60">
 <h3>Oprava nabíjení</h3>
 <p>Telefon nenabíjí? Opravíme konektor.</p>
 </div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=600&q=60">
-<h3>Telefon po vodě</h3>
-<p>Zachraňujeme data i zařízení po vodě.</p>
 </div>
-
-</div>
-
 </section>
 
-<section id="proc" class="section-dark">
-
+<section id="vyhody" class="section-dark">
 <div class="container">
-
 <h2>Proč si zákazníci vybírají nás</h2>
-
 <div class="grid">
-
-<div class="card-dark">
-<h3>12 000+ oprav</h3>
-<p>Máme dlouholeté zkušenosti s opravami mobilních telefonů.</p>
+<div class="card-dark"><h3>10+ let zkušeností</h3><p>Tisíce úspěšných oprav mobilních telefonů.</p></div>
+<div class="card-dark"><h3>Rychlé opravy</h3><p>Většina oprav probíhá na počkání.</p></div>
+<div class="card-dark"><h3>Kvalitní díly</h3><p>Používáme prověřené náhradní díly.</p></div>
 </div>
-
-<div class="card-dark">
-<h3>Rychlé opravy</h3>
-<p>Většina oprav probíhá na počkání.</p>
 </div>
-
-<div class="card-dark">
-<h3>Kvalitní díly</h3>
-<p>Používáme kvalitní náhradní díly.</p>
-</div>
-
-</div>
-
-</div>
-
 </section>
 
 <section id="kalkulacka" class="section container">
-
 <h2>Orientační cena opravy</h2>
-
 <div class="calc">
-
-<select id="telefon">
-<option>iPhone 13</option>
-<option>iPhone 14</option>
-<option>iPhone 15</option>
-</select>
-
 <select id="problem">
-<option value="2000">Displej</option>
-<option value="1500">Baterie</option>
-<option value="1200">Nabíjení</option>
+<option value="1990">Výměna displeje</option>
+<option value="990">Výměna baterie</option>
+<option value="1200">Oprava nabíjení</option>
 </select>
-
-<button onclick="spocitej()">Zjistit cenu</button>
-
-<div class="price" id="vysledek"></div>
-
+<button onclick="calc()">Zjistit cenu</button>
+<div class="price" id="price"></div>
 </div>
-
 </section>
 
 <section id="kontakt" class="section-dark">
-
 <div class="container contact">
-
 <div>
 <h2>Kontakt</h2>
 <p><b>A Mobil Servis</b></p>
@@ -145,25 +90,18 @@ Opravy často do 30 minut • Diagnostika zdarma • Naproti Velké synagoze
 <p>📞 +420 723 122 199</p>
 <p>Po–Pá 9:00–17:00</p>
 </div>
-
 <div>
-<iframe
-src="https://maps.google.com/maps?q=Plzen%20synagoga&t=&z=15&ie=UTF8&iwloc=&output=embed"
-width="100%" height="250"></iframe>
+<iframe src="https://maps.google.com/maps?q=Plzen%20synagoga&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="250"></iframe>
 </div>
-
 </div>
-
 </section>
 
-<footer>
-© 2026 A Mobil Servis
-</footer>
+<footer>© 2026 A Mobil Servis</footer>
 
 <script>
-function spocitej(){
- let cena=document.getElementById("problem").value;
- document.getElementById("vysledek").innerHTML="Orientační cena: "+cena+" Kč";
+function calc(){
+ let price=document.getElementById("problem").value;
+ document.getElementById("price").innerHTML="Orientační cena: "+price+" Kč";
 }
 </script>
 
