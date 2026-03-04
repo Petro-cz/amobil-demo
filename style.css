@@ -3,159 +3,142 @@ body{
 font-family:Arial,Helvetica,sans-serif;
 margin:0;
 background:#0f172a;
-color:white;
+color:white
 }
 
 .container{
 max-width:1100px;
 margin:auto;
-padding:20px;
+padding:20px
 }
 
-.header{
+header{
 background:#020617;
-border-bottom:1px solid #1e293b;
+border-bottom:1px solid #1e293b
 }
 
 .header-inner{
 display:flex;
 justify-content:space-between;
-align-items:center;
+align-items:center
 }
 
 .logo{
 font-size:22px;
-font-weight:bold;
+font-weight:bold
 }
 
 .logo span{
-color:#ef4444;
+color:#ef4444
 }
 
 nav a{
 margin:0 10px;
 color:#cbd5f5;
-text-decoration:none;
+text-decoration:none
 }
 
 .cta{
 background:#ef4444;
 padding:10px 16px;
 border-radius:8px;
-text-decoration:none;
 color:white;
+text-decoration:none
 }
 
 .hero{
-padding:100px 20px;
 text-align:center;
-background:linear-gradient(120deg,#0f172a,#1e293b);
+padding:80px 20px;
+background:linear-gradient(120deg,#0f172a,#1e293b)
 }
 
-.hero h1{
-font-size:42px;
+.hero img{
+max-width:100%;
+border-radius:10px;
+margin-top:30px
 }
 
 .subtitle{
-font-size:18px;
-opacity:0.9;
+opacity:0.9
 }
 
-.hero-buttons{
-margin-top:30px;
-}
-
-.btn-primary{
+.btn{
 background:#ef4444;
 padding:14px 22px;
 border-radius:8px;
-margin-right:10px;
 text-decoration:none;
 color:white;
-}
-
-.btn-secondary{
-border:1px solid white;
-padding:14px 22px;
-border-radius:8px;
-text-decoration:none;
-color:white;
-}
-
-.benefits{
-margin-top:30px;
-display:flex;
-gap:20px;
-justify-content:center;
-flex-wrap:wrap;
+display:inline-block;
+margin-top:20px
 }
 
 .section{
-padding:80px 20px;
+padding:70px 20px
 }
 
 .section-dark{
 background:#020617;
-padding:80px 20px;
+padding:70px 20px
 }
 
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:25px;
-margin-top:30px;
+margin-top:30px
 }
 
 .card{
 background:#1e293b;
 padding:20px;
 border-radius:10px;
+text-align:center
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+margin-bottom:10px
 }
 
 .card-dark{
 background:#0f172a;
 padding:20px;
 border-radius:10px;
-border:1px solid #1e293b;
+border:1px solid #1e293b
 }
 
-.step{
+.calc{
 background:#1e293b;
 padding:20px;
 border-radius:10px;
+max-width:400px;
+margin:auto
 }
 
-.section-contact{
-background:#020617;
-padding:80px 20px;
+select,button{
+width:100%;
+padding:12px;
+margin-top:10px;
+border-radius:6px;
+border:none
 }
 
-.contact-grid{
+.price{
+font-size:24px;
+margin-top:10px;
+color:#ef4444
+}
+
+.contact{
 display:grid;
 grid-template-columns:1fr 1fr;
-gap:40px;
+gap:30px
 }
 
-.form input,
-.form textarea{
-width:100%;
-margin-bottom:10px;
-padding:12px;
-border-radius:6px;
-border:none;
-}
-
-.form button{
-background:#ef4444;
-border:none;
-color:white;
-padding:14px;
-border-radius:8px;
-}
-
-.footer{
+footer{
 text-align:center;
 padding:30px;
 border-top:1px solid #1e293b;
-color:#94a3b8;
+color:#94a3b8
 }
