@@ -1,0 +1,161 @@
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+margin:0;
+background:#0f172a;
+color:white;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:20px;
+}
+
+.header{
+background:#020617;
+border-bottom:1px solid #1e293b;
+}
+
+.header-inner{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+.logo span{
+color:#ef4444;
+}
+
+nav a{
+margin:0 10px;
+color:#cbd5f5;
+text-decoration:none;
+}
+
+.cta{
+background:#ef4444;
+padding:10px 16px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+}
+
+.hero{
+padding:100px 20px;
+text-align:center;
+background:linear-gradient(120deg,#0f172a,#1e293b);
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.subtitle{
+font-size:18px;
+opacity:0.9;
+}
+
+.hero-buttons{
+margin-top:30px;
+}
+
+.btn-primary{
+background:#ef4444;
+padding:14px 22px;
+border-radius:8px;
+margin-right:10px;
+text-decoration:none;
+color:white;
+}
+
+.btn-secondary{
+border:1px solid white;
+padding:14px 22px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+}
+
+.benefits{
+margin-top:30px;
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.section{
+padding:80px 20px;
+}
+
+.section-dark{
+background:#020617;
+padding:80px 20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
+
+.card-dark{
+background:#0f172a;
+padding:20px;
+border-radius:10px;
+border:1px solid #1e293b;
+}
+
+.step{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
+
+.section-contact{
+background:#020617;
+padding:80px 20px;
+}
+
+.contact-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.form input,
+.form textarea{
+width:100%;
+margin-bottom:10px;
+padding:12px;
+border-radius:6px;
+border:none;
+}
+
+.form button{
+background:#ef4444;
+border:none;
+color:white;
+padding:14px;
+border-radius:8px;
+}
+
+.footer{
+text-align:center;
+padding:30px;
+border-top:1px solid #1e293b;
+color:#94a3b8;
+}
